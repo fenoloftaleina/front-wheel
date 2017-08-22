@@ -3,7 +3,7 @@
   (:require [cljs-http.client :as http]
             [cljs.core.async :refer [<!]]))
 
-(def api-base-url "http://localhost:8899/");;https://back-wheel.herokuapp.com/")
+(def api-base-url "https://back-wheel.herokuapp.com/")
 
 (def empty-api-response
   {:loading false :loaded false :data nil})
